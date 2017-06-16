@@ -1,0 +1,69 @@
+nname: Projects
+source:
+  - icon: fa fa-globe
+    name: Ecommerce platform (Voice of Prophecy)
+    description: Develop a heavenly customised ecommerce platform based on Spree 3.1. It included custom UPS PO Box control, new USPS shipping methods and custom user accounts.
+    tech:
+      - Ruby on Rails
+      - Spree (3.1)
+      - jQuery
+      - MySQL
+      - RSpec
+
+  - icon: fa fa-globe
+    name: Employee timesheet management (Adventist Media Center)
+    description: Timesheet management for local and remote employees working across five different time zones.
+    tech:
+      - Ruby on Rails
+      - CoffeScript
+      - Haml
+      - Sass
+      - MySQL
+      - jQuery
+      - RSpec
+
+  - icon: fa fa-globe
+    name: Advanced CMS system used by organisations and churches around the globe (netAdventist).
+    description: Part of a team that upgraded the app to Rails 3 and performed custom extension development and maintenance.
+    tech:
+      - Ruby on Rails
+      - CoffeScript
+      - MySQL
+      - jQuery
+      - RSpec
+      - Cucumber
+
+  - icon: fa fa-globe
+    name: Resolver (www.resolver.co.uk)
+    description: Worked on a full redesign and architecture of new key functionality related to PPI claims.
+    tech:
+      - Ruby on Rails, CoffeScript, MySQL, jQuery, Sidekik, RSpec, Cucumber
+
+  - icon: fa fa-globe
+    name: Supertouch
+    description: Develop intranet application to support the internal sales and distribution teams. Included buying modules for buying trends, sales dashboard and customer profiles.
+    tech:
+      - Ruby on Rails
+      - Haml
+      - CoffeScript
+      - MondoDB
+      - Redis
+      - jQuery
+      - RSpec
+
+  - icon: fa fa-globe
+    name: Online educational game targeting children under 11 years old
+    description: Develop online game to help them develop Math and English skills.
+    tech:
+      - PHP
+      - jQuery
+      - Raphaël.js
+
+  - icon: fa fa-globe
+    name: Google Adwords ad creation engine
+    description: Build an ad creation engine that created online ads based on pre-defined settings.
+    tech:
+      - Ruby
+      - Sinatra
+      - jQuery
+      - Google Adwords API

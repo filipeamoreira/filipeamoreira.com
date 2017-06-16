@@ -1,0 +1,20 @@
+<section id="projects">
+  <div class="container">
+    <h3>{{ .Site.Data.projects.name }}</h3>
+    <div class="panel panel-default">
+      <div class="panel-body">
+      {{ range $i, $el := .Site.Data.projects.source }}
+        <h5>
+          <i class="{{ .icon }}"></i>&nbsp;&nbsp;
+          <strong>{{ .name }}</strong>&nbsp;-&nbsp;{{ $el.description }}
+        </h5>
+        <ul class="tech">
+          {{ range $i, $inner_el := $el.tech }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
