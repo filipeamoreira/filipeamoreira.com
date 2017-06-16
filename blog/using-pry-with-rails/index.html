@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="map[]" />
+    <meta name="description" content="Freelance Ruby and JavaScript developer">
+    <link rel="shortcut icon" type="image/x-icon" href="https://example.com/img/favicon.ico">
+    <title>Using Pry With Rails</title>
+    <meta name="generator" content="Hugo 0.21" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://example.com/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+    
+    <link rel="stylesheet" href="https://example.com/css/style.css">
+    
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    
+  </head>
+
+  <body>
+    <div id="wrap">
+
+      
+      <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://example.com/"><i class="fa fa-home"></i></a>
+    </div>
+    <div id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+        <li><a href="/blog/">BLOG</a></li>
+        
+        <li><a href="/projects/">PROJECTS</a></li>
+        
+        <li><a href="/resume/">RESUME</a></li>
+        
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      
+      <div class="container">
+        <div class="blog-post">
+          <h3>
+            <strong><a href="https://example.com/blog/using-pry-with-rails/">Using Pry With Rails</a></strong>
+          </h3>
+        </div>
+        <div class="blog-title">
+          <h4>
+          March 9, 2012
+            &nbsp;&nbsp;
+            
+          </h4>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="blogpost">
+              <p><a href="http://pry.github.com/">Pry</a> is a IRB replacement with some very nice additional features. I&rsquo;ll link to additional resources at the end of this post.</p>
+
+<p>Some of the additional features pry offers us include:</p>
+
+<ul>
+<li>Native syntax highlighting</li>
+<li>Source and document browsing</li>
+<li>Very flexible plugin architecture</li>
+</ul>
+
+<p>##Installation</p>
+
+<p>You can install and run pry with:</p>
+
+<pre><code>$ gem install pry
+$ pry
+</code></pre>
+
+<p>They are a few ways to integrate pry with Rails but the one I like it the most came from <a href="http://twitter.com/fnando">@fnando</a> and originally from <a href="http://lucapette.com/pry/pry-everywhere/">Luca Pette</a>. Instead of patching of Rails initializer file, as described on the <a href="https://github.com/pry/pry/wiki/Setting-up-Rails-or-Heroku-to-use-Pry">Pry Wiki</a>, you can use the following method:</p>
+
+<p>On IRB initialization file load Pry instead:</p>
+
+<pre><code>begin
+  require 'pry'
+  Pry.start
+exit
+  rescue LoadError =&gt; e
+  warn &quot;=&gt; Unable to load pry&quot;
+end
+
+</code></pre>
+
+<p>This will load try to load Pry and if failed will print a message to stdout. The exit command after Pry&rsquo;s invocation is to avoid going back to IRB after the Pry session has finished.</p>
+
+<p>The other part of the configuration is done on .pryrc</p>
+
+<p>File: ~/.pryrc</p>
+
+<pre><code>if defined?(Rails)
+  begin
+    require &quot;rails/console/app&quot;
+    require &quot;rails/console/helpers&quot;
+  rescue LoadError =&gt; e
+    require &quot;console_app&quot;
+    require &quot;console_with_helpers&quot;
+  end
+end
+</code></pre>
+
+<p>This will allow you to continue using rails console but using pry instead of irb. I also like to use awesome_print so I added this to my config file:</p>
+
+<p>File: ~/.pryrc</p>
+
+<pre><code class="language-ruby">begin
+  require &quot;awesome_print&quot;
+  Pry.config.print = proc {|output, value| Pry::Helpers::BaseHelpers.stagger_output(&quot;=&gt; #{value.ai}&quot;, output)}
+rescue LoadError =&gt; err
+   warn &quot;=&gt; Unable to load awesome_print&quot;
+end
+</code></pre>
+
+<p>This will try to load awesome_print gem and failing to do that will print a message to stdout.</p>
+
+<p>For more information on Pry see:</p>
+
+<ul>
+<li><a href="http://pry.github.com/">Pry&rsquo;s website</a></li>
+<li><a href="http://railscasts.com/episodes/280-pry-with-rails">Pry Railscast</a></li>
+<li><a href="https://github.com/filipeamoreira/dot-files/blob/master/_irbrc">My irbrc</a></li>
+<li><a href="https://github.com/filipeamoreira/dot-files/blob/master/_pryrc">My pryrc</a></li>
+</ul>
+
+              <hr>
+              <div class="related-posts">
+                <h5>Related Posts</h5>
+                
+              </div>
+            </div>
+          </div>
+          <hr>
+        <div class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+
+    (function() {
+      
+      
+      if (window.location.hostname == "localhost")
+        return;
+
+      var disqus_shortname = 'filipeamoreira';
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+        </div>
+      </div>
+      
+    </div>
+
+    
+    <footer>
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io/">Hugo</a> and
+      <a href="http://www.github.com/nurlansu/hugo-sustain/">sustain</a> with ♥</p>
+    </div>
+  </div>
+</footer>
+<div class="footer"></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://example.com/js/docs.min.js"></script>
+<script src="https://example.com/js/main.js"></script>
+
+<script src="https://example.com/js/ie10-viewport-bug-workaround.js"></script>
+
+
+    
+  </body>
+</html>

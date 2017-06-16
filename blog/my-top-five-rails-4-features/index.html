@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="map[]" />
+    <meta name="description" content="Freelance Ruby and JavaScript developer">
+    <link rel="shortcut icon" type="image/x-icon" href="https://example.com/img/favicon.ico">
+    <title>My Top Five Rails 4 Features</title>
+    <meta name="generator" content="Hugo 0.21" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://example.com/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+    
+    <link rel="stylesheet" href="https://example.com/css/style.css">
+    
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    
+  </head>
+
+  <body>
+    <div id="wrap">
+
+      
+      <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://example.com/"><i class="fa fa-home"></i></a>
+    </div>
+    <div id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+        <li><a href="/blog/">BLOG</a></li>
+        
+        <li><a href="/projects/">PROJECTS</a></li>
+        
+        <li><a href="/resume/">RESUME</a></li>
+        
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      
+      <div class="container">
+        <div class="blog-post">
+          <h3>
+            <strong><a href="https://example.com/blog/my-top-five-rails-4-features/">My Top Five Rails 4 Features</a></strong>
+          </h3>
+        </div>
+        <div class="blog-title">
+          <h4>
+          November 7, 2013
+            &nbsp;&nbsp;
+            
+          </h4>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="blogpost">
+              
+
+<p><a href="http://weblog.rubyonrails.org/2013/6/25/Rails-4-0-final/">Rails 4</a> was released last June and version <a href="http://weblog.rubyonrails.org/2013/11/1/Rails-4-0-1-has-been-released/">4.0.1</a> at the beginning of this month. It should be noted that Rails 4 requires Ruby 1.9.3 with Ruby 2.0 being recommended.</p>
+
+<p>Here I highlight my top five features:</p>
+
+<h2 id="strong-parameters">Strong Parameters</h2>
+
+<p>Rails Mass assignment feature is quite handy but can be really dangerous. Last year Github was <a href="http://www.infoq.com/news/2012/03/GitHub-Compromised">compromised by an attack based on it</a>. Rails 4 has a new way of dealing with mass assignment each basically pushes the responsibility out of the model and into the controller where it belongs.</p>
+
+<p>The new approach was already available as a plugin called <a href="https://github.com/rails/strong_parameters">strong_parameters</a> and dhh as a blog post <a href="http://weblog.rubyonrails.org/2012/3/21/strong-parameters/">explaining it in detail</a>.</p>
+
+<h2 id="live-streaming">Live Streaming</h2>
+
+<p>Rails 4 brings Lives Streaming as a major new feature. To enable streaming we need to mixin the <code>ruby ActionController::Live</code> to the controller class. One use case for this is to enable push notifications to the frontend without relying on plugins like <a href="http://juggernaut.rubyforge.org/">Juggernaut</a> or outside services such as <a href="http://pusher.com/">Pusher</a>.</p>
+
+<p>You can read more about this feature <a href="http://www.sitepoint.com/streaming-with-rails-4/">here</a> and <a href="http://blog.phusion.nl/2012/08/03/why-rails-4-live-streaming-is-a-big-deal/">here</a>.</p>
+
+<h2 id="russian-doll-caching">Russian Doll caching</h2>
+
+<p>Russian Doll caching describes the technique of using nested fragment caching. The idea is that a page can best divided multiple sections, each one being a fragment. These cached fragments are used independently and can be reused when the content changes. Changes to inner fragments caused a chain reaction which expires all outer fragment caches. Rails 4 uses caches digests to avoid the pain of maintaining cache version numbers for individual templates.</p>
+
+<p>You can read more about Russian Doll caching <a href="http://37signals.com/svn/posts/3112-how-basecamp-next-got-to-be-so-damn-fast-without-using-much-client-side-ui">here</a></p>
+
+<h2 id="asynchronous-action-mailer">Asynchronous Action Mailer</h2>
+
+<p>A new Queue framework was added to Rails 4 and Action Mailer are configured by default to use this new Queue interface. The interface remains very similar to Rails 3 developers with the added benefit that changing backend providers is as easy as changing a single line of code:</p>
+
+<pre><code class="language-ruby"># production.rb
+config.queue = ActiveSupport::Queue.new
+# In this case to use Sidekiq as the Action Mailer backend
+config.action_mailer.queue = Sidekiq::Client::Queue.new
+</code></pre>
+
+<p>You can read more about this feature <a href="http://blog.remarkablelabs.com/2012/12/asynchronous-action-mailer-rails-4-countdown-to-2013">here</a></p>
+
+<h2 id="other-smaller-enhancements">Other smaller enhancements</h2>
+
+<p>Rails 4 is now thread-safe by default. You can read about this change on this helpful <a href="http://tenderlovemaking.com/2012/06/18/removing-config-threadsafe.html">post</a> by Aaron Patterson.</p>
+
+<p>Another addition is Turbolinks which works similarly to pjax, fetching relevant content and updating the page to avoid a full reload. Read more about it <a href="http://blog.remarkablelabs.com/2012/12/turbolinks-rails-4-countdown-to-2013">here</a></p>
+
+<p>There are many more features that I will not be able to cover here. You can read the <a href="http://edgeguides.rubyonrails.org/4_0_release_notes.html">releases notes</a> to see the detailed changes.</p>
+
+<p>Rails 4.0.1 brings some stability improvements to Rails 4. The complete set of changes are shown <a href="http://weblog.rubyonrails.org/2013/11/1/Rails-4-0-1-has-been-released/">here</a></p>
+
+              <hr>
+              <div class="related-posts">
+                <h5>Related Posts</h5>
+                
+              </div>
+            </div>
+          </div>
+          <hr>
+        <div class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+
+    (function() {
+      
+      
+      if (window.location.hostname == "localhost")
+        return;
+
+      var disqus_shortname = 'filipeamoreira';
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+        </div>
+      </div>
+      
+    </div>
+
+    
+    <footer>
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io/">Hugo</a> and
+      <a href="http://www.github.com/nurlansu/hugo-sustain/">sustain</a> with ♥</p>
+    </div>
+  </div>
+</footer>
+<div class="footer"></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://example.com/js/docs.min.js"></script>
+<script src="https://example.com/js/main.js"></script>
+
+<script src="https://example.com/js/ie10-viewport-bug-workaround.js"></script>
+
+
+    
+  </body>
+</html>

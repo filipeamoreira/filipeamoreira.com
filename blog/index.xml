@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Freelance Software Developer | Filipe A Moreira</title>
+    <link>https://example.com/blog/</link>
+    <description>Recent content in Blogs on Freelance Software Developer | Filipe A Moreira</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 07 Nov 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Top Five Rails 4 Features</title>
+      <link>https://example.com/blog/my-top-five-rails-4-features/</link>
+      <pubDate>Thu, 07 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/blog/my-top-five-rails-4-features/</guid>
+      <description>Rails 4 was released last June and version 4.0.1 at the beginning of this month. It should be noted that Rails 4 requires Ruby 1.9.3 with Ruby 2.0 being recommended.
+Here I highlight my top five features:
+Strong Parameters Rails Mass assignment feature is quite handy but can be really dangerous. Last year Github was compromised by an attack based on it. Rails 4 has a new way of dealing with mass assignment each basically pushes the responsibility out of the model and into the controller where it belongs.</description>
+    </item>
+    
+    <item>
+      <title>Using Pry With Rails</title>
+      <link>https://example.com/blog/using-pry-with-rails/</link>
+      <pubDate>Fri, 09 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/blog/using-pry-with-rails/</guid>
+      <description>Pry is a IRB replacement with some very nice additional features. I&amp;rsquo;ll link to additional resources at the end of this post.
+Some of the additional features pry offers us include:
+ Native syntax highlighting Source and document browsing Very flexible plugin architecture  ##Installation
+You can install and run pry with:
+$ gem install pry $ pry  They are a few ways to integrate pry with Rails but the one I like it the most came from @fnando and originally from Luca Pette.</description>
+    </item>
+    
+    <item>
+      <title>Routing a Wordpress Blog Inside a Rails App</title>
+      <link>https://example.com/blog/routing-a-wordpress-blog-inside-a-rails-app/</link>
+      <pubDate>Wed, 01 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/blog/routing-a-wordpress-blog-inside-a-rails-app/</guid>
+      <description>This post describe how to host a subdomain route for a alien application inside a Ruby on Rails app. Wordpress is used here as an example but these instructions work with any outside url.
+If you do have control over the web server you can use a url rewrite to accomplish this. See steps for doing this using Apache or nginx.
+However what about when you have no control over the web server layer (such as when hosting the Rails application on Heroku)?</description>
+    </item>
+    
+    <item>
+      <title>Full Text Search With MongoDB</title>
+      <link>https://example.com/blog/full-text-search-with-mongodb/</link>
+      <pubDate>Tue, 24 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/blog/full-text-search-with-mongodb/</guid>
+      <description>Recently I had to implement full text search on a Ruby on Rails application. Based on the app&amp;rsquo;s needs the best way to do it was building a helper array with the keywords needed and make the search using those keywords.
+To illustrate this I&amp;rsquo;ve implemented stock tickers search using the awesome rstat.us project. Have a look at my Github fork.
+File: update.rb
+class Update ... # Adds stocks array mentions key: stocks, Array, :default =&amp;gt; [] # Parses update text and build stocks array for simpler search def parse_symbols stocks = [] self.</description>
+    </item>
+    
+    <item>
+      <title>Starting on the blogging path</title>
+      <link>https://example.com/blog/starting-on-the-blogging-path/</link>
+      <pubDate>Mon, 16 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/blog/starting-on-the-blogging-path/</guid>
+      <description>After trying to blog and failing to continue writing I feel the need to start once more. Hopefully this time I&amp;rsquo;ll be able to sit down and write about technical subjects that interest me.
+My intention with this blog is to share findings and document my learning process as I build and work on different applications.
+More to come soon and thanks for stopping by.</description>
+    </item>
+    
+  </channel>
+</rss>
