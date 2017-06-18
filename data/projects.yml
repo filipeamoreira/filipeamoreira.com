@@ -59,7 +59,7 @@ source:
 
   - icon: fa fa-check
     name: Online educational game
-    description: Was part of a two-person team that built a educational game to ElevenPlusExams, which is the premier company offering support for children preparing to the secondary school entrance exams.
+    description: Was part of a two-person team that built educational games to ElevenPlusExams, which is the premier company offering support for children preparing to the secondary school entrance exams.
     tech:
       - PHP
       - JavaScript/jQuery
