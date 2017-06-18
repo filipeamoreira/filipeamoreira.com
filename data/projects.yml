@@ -1,8 +1,8 @@
-nname: Projects
+name: Client Projects
 source:
-  - icon: fa fa-globe
-    name: Ecommerce platform (Voice of Prophecy)
-    description: Develop a heavenly customised ecommerce platform based on Spree 3.1. It included custom UPS PO Box control, new USPS shipping methods and custom user accounts.
+  - icon: fa fa-check
+    name: Ecommerce platform
+    description: Develop a heavenly customised ecommerce platform based on Spree 3.1 for the Voice of Prophecy. It included custom UPS PO Box control, new USPS shipping methods and custom user accounts.
     tech:
       - Ruby on Rails
       - Spree (3.1)
@@ -10,9 +10,9 @@ source:
       - MySQL
       - RSpec
 
-  - icon: fa fa-globe
-    name: Employee timesheet management (Adventist Media Center)
-    description: Timesheet management for local and remote employees working across five different time zones.
+  - icon: fa fa-check
+    name: Employee time sheet management
+    description: Time sheet management for the Adventist Media Center. It included complex overtime calculation across different roles and areas of the company and also extended time zone support.
     tech:
       - Ruby on Rails
       - CoffeScript
@@ -22,9 +22,9 @@ source:
       - jQuery
       - RSpec
 
-  - icon: fa fa-globe
-    name: Advanced CMS system used by organisations and churches around the globe (netAdventist).
-    description: Part of a team that upgraded the app to Rails 3 and performed custom extension development and maintenance.
+  - icon: fa fa-check
+    name: Advanced CMS system
+    description: Part of a small team that upgraded and enhanced netAdventist which is a advanced CMS system built for the Seventh-day Adventist Church. It has extension support and complete internalisation.
     tech:
       - Ruby on Rails
       - CoffeScript
@@ -33,15 +33,21 @@ source:
       - RSpec
       - Cucumber
 
-  - icon: fa fa-globe
-    name: Resolver (www.resolver.co.uk)
-    description: Worked on a full redesign and architecture of new key functionality related to PPI claims.
+  - icon: fa fa-check
+    name: Consumer complaint system
+    description: Worked on a full redesign for the premier consumer complaint app in the UK, Resolver. Also worked on the architecture of a new key functionality on the application, the PPI claim module.
     tech:
-      - Ruby on Rails, CoffeScript, MySQL, jQuery, Sidekik, RSpec, Cucumber
+      - Ruby on Rails
+      - CoffeScript
+      - MySQL
+      - jQuery
+      - Sidekik
+      - RSpec
+      - Cucumber
 
-  - icon: fa fa-globe
-    name: Supertouch
-    description: Develop intranet application to support the internal sales and distribution teams. Included buying modules for buying trends, sales dashboard and customer profiles.
+  - icon: fa fa-check
+    name: Management and sales intranet
+    description: Develop an intranet application for Supertouch. Its aim was to support the internal and external sales and distribution teams. The intranet was composed of a buying module used to track buying trends, a sales dashboard and also a customer profiles module.
     tech:
       - Ruby on Rails
       - Haml
@@ -51,15 +57,15 @@ source:
       - jQuery
       - RSpec
 
-  - icon: fa fa-globe
-    name: Online educational game targeting children under 11 years old
-    description: Develop online game to help them develop Math and English skills.
+  - icon: fa fa-check
+    name: Online educational game
+    description: Was part of a two-person team that built a educational game to ElevenPlusExams, which is the premier company offering support for children preparing to the secondary school entrance exams.
     tech:
       - PHP
-      - jQuery
+      - JavaScript/jQuery
       - Raphaël.js
 
-  - icon: fa fa-globe
+  - icon: fa fa-check
     name: Google Adwords ad creation engine
     description: Build an ad creation engine that created online ads based on pre-defined settings.
     tech:

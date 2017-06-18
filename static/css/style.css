@@ -1,3 +1,10 @@
+body{
+  font-size: 16px;
+}
+ul.tech{
+  padding-left: 0;
+  display: inline;
+}
 ul.tech li{
   display: inline;
   list-style-type: none;
