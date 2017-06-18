@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Freelance Software Developer | Filipe A Moreira</title>
-    <link>https://example.com/categories/</link>
+    <link>https://filipeamoreira.github.io/filipeamoreira/categories/</link>
     <description>Recent content in Categories on Freelance Software Developer | Filipe A Moreira</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://filipeamoreira.github.io/filipeamoreira/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Projects</title>
-      <link>https://example.com/categories/projects/</link>
+      <link>https://filipeamoreira.github.io/filipeamoreira/categories/projects/</link>
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
-      <guid>https://example.com/categories/projects/</guid>
+      <guid>https://filipeamoreira.github.io/filipeamoreira/categories/projects/</guid>
       <description></description>
     </item>
     

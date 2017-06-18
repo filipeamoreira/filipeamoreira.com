@@ -3,66 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/projects/</loc>
+    <loc>https://filipeamoreira.github.io/filipeamoreira/projects/</loc>
     <lastmod>2016-10-02T22:55:05-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/blog/my-top-five-rails-4-features/</loc>
+    <loc>https://filipeamoreira.github.io/filipeamoreira/blog/my-top-five-rails-4-features/</loc>
     <lastmod>2013-11-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/blog/using-pry-with-rails/</loc>
+    <loc>https://filipeamoreira.github.io/filipeamoreira/blog/using-pry-with-rails/</loc>
     <lastmod>2012-03-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/blog/routing-a-wordpress-blog-inside-a-rails-app/</loc>
+    <loc>https://filipeamoreira.github.io/filipeamoreira/blog/routing-a-wordpress-blog-inside-a-rails-app/</loc>
     <lastmod>2012-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/blog/full-text-search-with-mongodb/</loc>
+    <loc>https://filipeamoreira.github.io/filipeamoreira/blog/full-text-search-with-mongodb/</loc>
     <lastmod>2012-01-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/blog/starting-on-the-blogging-path/</loc>
+    <loc>https://filipeamoreira.github.io/filipeamoreira/blog/starting-on-the-blogging-path/</loc>
     <lastmod>2012-01-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/blog/</loc>
+    <loc>https://filipeamoreira.github.io/filipeamoreira/blog/</loc>
     <lastmod>2013-11-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://filipeamoreira.github.io/filipeamoreira/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://filipeamoreira.github.io/filipeamoreira/</loc>
     <lastmod>2016-10-02T22:55:05-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/projects/</loc>
+    <loc>https://filipeamoreira.github.io/filipeamoreira/tags/projects/</loc>
     <lastmod>2016-10-02T22:55:05-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/categories/projects/</loc>
+    <loc>https://filipeamoreira.github.io/filipeamoreira/categories/projects/</loc>
     <lastmod>2016-10-02T22:55:05-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://filipeamoreira.github.io/filipeamoreira/tags/</loc>
     <lastmod>2016-10-02T22:55:05-04:00</lastmod>
     <priority>0</priority>
   </url>
