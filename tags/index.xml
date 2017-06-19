@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Freelance Software Developer | Filipe A Moreira</title>
-    <link>https://filipeamoreira.github.io/filipeamoreira/tags/</link>
+    <link>http://filipeamoreira.com/tags/</link>
     <description>Recent content in Tags on Freelance Software Developer | Filipe A Moreira</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 02 Oct 2016 22:55:05 -0400</lastBuildDate>
     
-	<atom:link href="https://filipeamoreira.github.io/filipeamoreira/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://filipeamoreira.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Projects</title>
-      <link>https://filipeamoreira.github.io/filipeamoreira/tags/projects/</link>
+      <link>http://filipeamoreira.com/tags/projects/</link>
       <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
       
-      <guid>https://filipeamoreira.github.io/filipeamoreira/tags/projects/</guid>
+      <guid>http://filipeamoreira.com/tags/projects/</guid>
       <description></description>
     </item>
     
