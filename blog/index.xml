@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Freelance Software Developer | Filipe A Moreira</title>
+    <title>Blogs on Freelance/Contract Full Stack Software Developer | Filipe Moreira</title>
     <link>http://filipeamoreira.com/blog/</link>
-    <description>Recent content in Blogs on Freelance Software Developer | Filipe A Moreira</description>
+    <description>Recent content in Blogs on Freelance/Contract Full Stack Software Developer | Filipe Moreira</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 18 Jun 2017 00:00:00 +0000</lastBuildDate>
@@ -17,8 +17,8 @@
       <pubDate>Sun, 18 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>http://filipeamoreira.com/blog/porting-my-blog-to-hugo/</guid>
-      <description>I&amp;rsquo;ve just completed porting my blog from Jekyll and Octopress to Hugo. Hugo is built with Go and has some nice features such as:
- Speed &amp;ndash; Hugo is blazing fast and can compile my site in few ms. Single executable &amp;ndash; Go generates a single executable that has no external dependencies. Tinkering &amp;ndash; I&amp;rsquo;m learning Go at the moment so this is a opportunity to get a handle in some aspects of the language (e.</description>
+      <description>I&#39;ve just completed porting my blog from Jekyll and Octopress to Hugo. Hugo is built with Go and has some nice features such as:
+ Speed &amp;ndash; Hugo is blazing fast and can compile my site in few ms. Single executable &amp;ndash; Go generates a single executable that has no external dependencies. Tinkering &amp;ndash; I&#39;m learning Go at the moment so this is a opportunity to get a handle in some aspects of the language (e.</description>
     </item>
     
     <item>
@@ -38,11 +38,11 @@ Strong Parameters Rails Mass assignment feature is quite handy but can be really
       <pubDate>Fri, 09 Mar 2012 00:00:00 +0000</pubDate>
       
       <guid>http://filipeamoreira.com/blog/using-pry-with-rails/</guid>
-      <description>Pry is a IRB replacement with some very nice additional features. I&amp;rsquo;ll link to additional resources at the end of this post.
+      <description>Pry is a IRB replacement with some very nice additional features. I&#39;ll link to additional resources at the end of this post.
 Some of the additional features pry offers us include:
  Native syntax highlighting Source and document browsing Very flexible plugin architecture  ##Installation
 You can install and run pry with:
-$ gem install pry $ pry  They are a few ways to integrate pry with Rails but the one I like it the most came from @fnando and originally from Luca Pette.</description>
+$ gem install pry $ pry They are a few ways to integrate pry with Rails but the one I like it the most came from @fnando and originally from Luca Pette.</description>
     </item>
     
     <item>
@@ -62,8 +62,8 @@ However what about when you have no control over the web server layer (such as w
       <pubDate>Tue, 24 Jan 2012 00:00:00 +0000</pubDate>
       
       <guid>http://filipeamoreira.com/blog/full-text-search-with-mongodb/</guid>
-      <description>Recently I had to implement full text search on a Ruby on Rails application. Based on the app&amp;rsquo;s needs the best way to do it was building a helper array with the keywords needed and make the search using those keywords.
-To illustrate this I&amp;rsquo;ve implemented stock tickers search using the awesome rstat.us project. Have a look at my Github fork.
+      <description>Recently I had to implement full text search on a Ruby on Rails application. Based on the app&#39;s needs the best way to do it was building a helper array with the keywords needed and make the search using those keywords.
+To illustrate this I&#39;ve implemented stock tickers search using the awesome rstat.us project. Have a look at my Github fork.
 File: update.rb
 class Update ... # Adds stocks array mentions key: stocks, Array, :default =&amp;gt; [] # Parses update text and build stocks array for simpler search def parse_symbols stocks = [] self.</description>
     </item>
@@ -74,7 +74,7 @@ class Update ... # Adds stocks array mentions key: stocks, Array, :default =&amp
       <pubDate>Mon, 16 Jan 2012 00:00:00 +0000</pubDate>
       
       <guid>http://filipeamoreira.com/blog/starting-on-the-blogging-path/</guid>
-      <description>After trying to blog and failing to continue writing I feel the need to start once more. Hopefully this time I&amp;rsquo;ll be able to sit down and write about technical subjects that interest me.
+      <description>After trying to blog and failing to continue writing I feel the need to start once more. Hopefully this time I&#39;ll be able to sit down and write about technical subjects that interest me.
 My intention with this blog is to share findings and document my learning process as I build and work on different applications.
 More to come soon and thanks for stopping by.</description>
     </item>
