@@ -1,8 +1,39 @@
 name: Client Projects
 source:
   - icon: fa fa-check
+    name: Performance optimisation for a data heavy Ruby on Rails application
+    description: Worked as the performance optimisation specialist to analyse the application, propose performance improvements, and finally implement the fixes and enhancements.
+    tech:
+      - Ruby on Rails
+      - Ruby profilers (ruby-prof, stackprof, rbtrace)
+      - PostgreSQL
+      - AWS (EC2, RDS, ElastiCache)
+      - Ansible
+
+  - icon: fa fa-check
+    name: CI pipeline and DevOps modernisation
+    description: Responsible for a project to modernise the building infrastructure of several applications, all the way from containesiring (using Docker) the applications to the creation of a automated, parallel, multi-stage build pipeline using Jenkins.
+    tech:
+      - Docker
+      - Jenkins
+      - Groovy
+      - Ruby on Rails
+      - JavaScript
+
+  - icon: fa fa-check
+    name: JavaScript (React) gaming widgets
+    description: Worked as part of a small team to develop a set of JavaScript (React) based widgets that rebuilt a gaming platform from a Ruby on Rails + jQuery solution to a React + API (built on Node.JS) platform.
+    tech:
+      - React
+      - Node.JS
+      - ES6/ES7
+      - Jasmine
+      - Jest
+      - Karma
+
+  - icon: fa fa-check
     name: Ecommerce platform
-    description: Develop a heavenly customised ecommerce platform based on Spree 3.1 for the Voice of Prophecy. It included custom UPS PO Box control, new USPS shipping methods and custom user accounts.
+    description: Developed a heavily customised ecommerce platform based on Ruby on Rails (Spree 3.1) for the Voice of Prophecy. It included custom UPS PO Box control, new USPS shipping methods and custom user accounts.
     tech:
       - Ruby on Rails
       - Spree (3.1)
@@ -12,7 +43,7 @@ source:
 
   - icon: fa fa-check
     name: Employee time sheet management
-    description: Time sheet management for the Adventist Media Center. It included complex overtime calculation across different roles and areas of the company and also extended time zone support.
+    description: Time sheet management for the Adventist Media Center. It included complex overtime calculation for the different roles and department of the company as well as extended time zone support.
     tech:
       - Ruby on Rails
       - CoffeScript
@@ -24,7 +55,7 @@ source:
 
   - icon: fa fa-check
     name: Advanced CMS system
-    description: Part of a small team that upgraded and enhanced netAdventist which is a advanced CMS system built for the Seventh-day Adventist Church. It has extension support and complete internalisation.
+    description: Part of a small team that upgraded and enhanced netAdventist which is an advanced CMS system built for the Seventh-day Adventist Church. It has support for extensions, media management, and internationalisation.
     tech:
       - Ruby on Rails
       - CoffeScript
@@ -35,7 +66,7 @@ source:
 
   - icon: fa fa-check
     name: Consumer complaint system
-    description: Worked on a full redesign for the premier consumer complaint app in the UK, Resolver. Also worked on the architecture of a new key functionality on the application, the PPI claim module.
+    description: Worked on a full redesign for the premier consumer complaint application in the UK, Resolver. Also worked on the architecture of a new key module for the application that deals with PPI claims.
     tech:
       - Ruby on Rails
       - CoffeScript
@@ -62,12 +93,13 @@ source:
     description: Was part of a two-person team that built educational games to ElevenPlusExams, which is the premier company offering support for children preparing to the secondary school entrance exams.
     tech:
       - Ruby on Rails
-      - JavaScript/jQuery
+      - JavaScript
+      - jQuery
       - Raphaël.js
 
   - icon: fa fa-check
     name: Google Adwords ad creation engine
-    description: Build an ad creation engine that created online ads based on pre-defined settings.
+    description: Build an marketing ad creation engine that created online ads based on pre-defined settings.
     tech:
       - Ruby
       - Sinatra
