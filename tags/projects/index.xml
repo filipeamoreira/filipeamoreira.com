@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>projects on Freelance/Contract Full Stack Software Developer | Filipe Moreira</title>
-    <link>https://filipeamoreira.com/tags/projects/</link>
+    <link>http://filipeamoreira.com/tags/projects/</link>
     <description>Recent content in projects on Freelance/Contract Full Stack Software Developer | Filipe Moreira</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="https://filipeamoreira.com/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://filipeamoreira.com/tags/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Projects Portfolio</title>
-      <link>https://filipeamoreira.com/projects/</link>
+      <link>http://filipeamoreira.com/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://filipeamoreira.com/projects/</guid>
+      <guid>http://filipeamoreira.com/projects/</guid>
       <description></description>
     </item>
     
