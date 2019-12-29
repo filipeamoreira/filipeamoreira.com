@@ -1,6 +1,7 @@
 <section id="projects">
   <div class="container">
     <h3>{{ .Site.Data.projects.name }}</h3>
+    <p>These are a small selection of client projects</p>
     <div class="panel panel-default">
       <div class="panel-body">
       {{ range $i, $el := .Site.Data.projects.source }}
@@ -9,6 +10,7 @@
           <strong>{{ .name }}</strong>&nbsp;-&nbsp;{{ $el.description }}
         </h5>
         <ul class="tech">
+          <strong>Technologies:</strong>
           {{ range $i, $inner_el := $el.tech }}
             <li>{{ . }}</li>
           {{ end }}
