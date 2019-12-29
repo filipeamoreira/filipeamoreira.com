@@ -3,67 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://filipeamoreira.com/blog/</loc>
+    <loc>https://filipeamoreira.com/blog/</loc>
     <lastmod>2017-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://filipeamoreira.com/</loc>
+    <loc>https://filipeamoreira.com/</loc>
     <lastmod>2017-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://filipeamoreira.com/blog/porting-my-blog-to-hugo/</loc>
+    <loc>https://filipeamoreira.com/blog/porting-my-blog-to-hugo/</loc>
     <lastmod>2017-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://filipeamoreira.com/blog/my-top-five-rails-4-features/</loc>
+    <loc>https://filipeamoreira.com/blog/my-top-five-rails-4-features/</loc>
     <lastmod>2013-11-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://filipeamoreira.com/blog/using-pry-with-rails/</loc>
+    <loc>https://filipeamoreira.com/blog/using-pry-with-rails/</loc>
     <lastmod>2012-03-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://filipeamoreira.com/blog/routing-a-wordpress-blog-inside-a-rails-app/</loc>
+    <loc>https://filipeamoreira.com/blog/routing-a-wordpress-blog-inside-a-rails-app/</loc>
     <lastmod>2012-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://filipeamoreira.com/blog/full-text-search-with-mongodb/</loc>
+    <loc>https://filipeamoreira.com/blog/full-text-search-with-mongodb/</loc>
     <lastmod>2012-01-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://filipeamoreira.com/blog/starting-on-the-blogging-path/</loc>
+    <loc>https://filipeamoreira.com/blog/starting-on-the-blogging-path/</loc>
     <lastmod>2012-01-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://filipeamoreira.com/about/</loc>
+    <loc>https://filipeamoreira.com/about/</loc>
   </url>
   
   <url>
-    <loc>http://filipeamoreira.com/categories/</loc>
+    <loc>https://filipeamoreira.com/categories/</loc>
   </url>
   
   <url>
-    <loc>http://filipeamoreira.com/tags/projects/</loc>
+    <loc>https://filipeamoreira.com/categories/projects/</loc>
   </url>
   
   <url>
-    <loc>http://filipeamoreira.com/categories/projects/</loc>
+    <loc>https://filipeamoreira.com/tags/projects/</loc>
   </url>
   
   <url>
-    <loc>http://filipeamoreira.com/projects/</loc>
+    <loc>https://filipeamoreira.com/projects/</loc>
   </url>
   
   <url>
-    <loc>http://filipeamoreira.com/tags/</loc>
+    <loc>https://filipeamoreira.com/tags/</loc>
   </url>
   
 </urlset>

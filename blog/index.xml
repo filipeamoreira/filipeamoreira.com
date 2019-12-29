@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Freelance/Contract Full Stack Software Developer | Filipe Moreira</title>
-    <link>http://filipeamoreira.com/blog/</link>
+    <link>https://filipeamoreira.com/blog/</link>
     <description>Recent content in Blogs on Freelance/Contract Full Stack Software Developer | Filipe Moreira</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 18 Jun 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://filipeamoreira.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://filipeamoreira.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Porting my blog to Hugo</title>
-      <link>http://filipeamoreira.com/blog/porting-my-blog-to-hugo/</link>
+      <link>https://filipeamoreira.com/blog/porting-my-blog-to-hugo/</link>
       <pubDate>Sun, 18 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://filipeamoreira.com/blog/porting-my-blog-to-hugo/</guid>
+      <guid>https://filipeamoreira.com/blog/porting-my-blog-to-hugo/</guid>
       <description>I&#39;ve just completed porting my blog from Jekyll and Octopress to Hugo. Hugo is built with Go and has some nice features such as:
  Speed &amp;ndash; Hugo is blazing fast and can compile my site in few ms. Single executable &amp;ndash; Go generates a single executable that has no external dependencies. Tinkering &amp;ndash; I&#39;m learning Go at the moment so this is a opportunity to get a handle in some aspects of the language (e.</description>
     </item>
     
     <item>
       <title>My Top Five Rails 4 Features</title>
-      <link>http://filipeamoreira.com/blog/my-top-five-rails-4-features/</link>
+      <link>https://filipeamoreira.com/blog/my-top-five-rails-4-features/</link>
       <pubDate>Thu, 07 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://filipeamoreira.com/blog/my-top-five-rails-4-features/</guid>
+      <guid>https://filipeamoreira.com/blog/my-top-five-rails-4-features/</guid>
       <description>Rails 4 was released last June and version 4.0.1 at the beginning of this month. It should be noted that Rails 4 requires Ruby 1.9.3 with Ruby 2.0 being recommended.
 Here I highlight my top five features:
 Strong Parameters Rails Mass assignment feature is quite handy but can be really dangerous. Last year Github was compromised by an attack based on it. Rails 4 has a new way of dealing with mass assignment each basically pushes the responsibility out of the model and into the controller where it belongs.</description>
@@ -34,10 +34,10 @@ Strong Parameters Rails Mass assignment feature is quite handy but can be really
     
     <item>
       <title>Using Pry With Rails</title>
-      <link>http://filipeamoreira.com/blog/using-pry-with-rails/</link>
+      <link>https://filipeamoreira.com/blog/using-pry-with-rails/</link>
       <pubDate>Fri, 09 Mar 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://filipeamoreira.com/blog/using-pry-with-rails/</guid>
+      <guid>https://filipeamoreira.com/blog/using-pry-with-rails/</guid>
       <description>Pry is a IRB replacement with some very nice additional features. I&#39;ll link to additional resources at the end of this post.
 Some of the additional features pry offers us include:
  Native syntax highlighting Source and document browsing Very flexible plugin architecture  ##Installation
@@ -47,10 +47,10 @@ $ gem install pry $ pry They are a few ways to integrate pry with Rails but the 
     
     <item>
       <title>Routing a Wordpress Blog Inside a Rails App</title>
-      <link>http://filipeamoreira.com/blog/routing-a-wordpress-blog-inside-a-rails-app/</link>
+      <link>https://filipeamoreira.com/blog/routing-a-wordpress-blog-inside-a-rails-app/</link>
       <pubDate>Wed, 01 Feb 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://filipeamoreira.com/blog/routing-a-wordpress-blog-inside-a-rails-app/</guid>
+      <guid>https://filipeamoreira.com/blog/routing-a-wordpress-blog-inside-a-rails-app/</guid>
       <description>This post describe how to host a subdomain route for a alien application inside a Ruby on Rails app. Wordpress is used here as an example but these instructions work with any outside url.
 If you do have control over the web server you can use a url rewrite to accomplish this. See steps for doing this using Apache or nginx.
 However what about when you have no control over the web server layer (such as when hosting the Rails application on Heroku)?</description>
@@ -58,10 +58,10 @@ However what about when you have no control over the web server layer (such as w
     
     <item>
       <title>Full Text Search With MongoDB</title>
-      <link>http://filipeamoreira.com/blog/full-text-search-with-mongodb/</link>
+      <link>https://filipeamoreira.com/blog/full-text-search-with-mongodb/</link>
       <pubDate>Tue, 24 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://filipeamoreira.com/blog/full-text-search-with-mongodb/</guid>
+      <guid>https://filipeamoreira.com/blog/full-text-search-with-mongodb/</guid>
       <description>Recently I had to implement full text search on a Ruby on Rails application. Based on the app&#39;s needs the best way to do it was building a helper array with the keywords needed and make the search using those keywords.
 To illustrate this I&#39;ve implemented stock tickers search using the awesome rstat.us project. Have a look at my Github fork.
 File: update.rb
@@ -70,10 +70,10 @@ class Update ... # Adds stocks array mentions key: stocks, Array, :default =&amp
     
     <item>
       <title>Starting on the blogging path</title>
-      <link>http://filipeamoreira.com/blog/starting-on-the-blogging-path/</link>
+      <link>https://filipeamoreira.com/blog/starting-on-the-blogging-path/</link>
       <pubDate>Mon, 16 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://filipeamoreira.com/blog/starting-on-the-blogging-path/</guid>
+      <guid>https://filipeamoreira.com/blog/starting-on-the-blogging-path/</guid>
       <description>After trying to blog and failing to continue writing I feel the need to start once more. Hopefully this time I&#39;ll be able to sit down and write about technical subjects that interest me.
 My intention with this blog is to share findings and document my learning process as I build and work on different applications.
 More to come soon and thanks for stopping by.</description>
