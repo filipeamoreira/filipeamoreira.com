@@ -1,10 +1,10 @@
 baseurl = "http://filipeamoreira.com/"
 languageCode = "en-US"
-title = "Freelance Software Developer | Filipe A Moreira"
+title = "Freelance/Contract Full Stack Software Developer | Filipe Moreira"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "filipeamoreira"
+# disqusShortname = "filipeamoreira"
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-11950001-1"
 theme = "hugo-sustain"
 
 [permalinks]
@@ -12,8 +12,8 @@ theme = "hugo-sustain"
 
 [params]
   avatar = "profile.png"
-  author = "Filipe A Moreira"
-  description = "Freelance Ruby and JavaScript developer"
+  author = "Filipe Moreira"
+  description = "Freelance/Contract Full Stack Software Developer"
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = ["css/style.css"]
