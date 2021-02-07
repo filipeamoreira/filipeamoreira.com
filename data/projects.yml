@@ -1,6 +1,27 @@
 name: Client Projects
 source:
   - icon: fa fa-check
+    name: Online workflow and ordering system for company in the printing business
+    description: Built an application that helped streamline the business and manufacturing processes for a garment printing company.
+    tech:
+      - Ruby on Rails
+      - JavaScript
+      - PostgreSQL
+      - Heroku
+      - Tailwind CSS
+      - Stimulus
+
+  - icon: fa fa-check
+    name: Online ordering platform that enable group buying
+    description: Built an application that helped an organic group buying move their operations online.
+    tech:
+      - Ruby on Rails
+      - PostgreSQL
+      - Heroku
+      - Tailwind CSS
+      - Stimulus
+
+  - icon: fa fa-check
     name: Performance optimisation for a data heavy Ruby on Rails application
     description: Worked as the performance optimisation specialist to analyse the application, propose performance improvements, and finally implement the fixes and enhancements.
     tech:
